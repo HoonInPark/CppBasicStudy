@@ -5,3 +5,8 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_executable(HelloCpp HelloCpp.cpp)
 add_executable(CoutSample CoutSample.cpp)
+add_executable(CoutString CoutString.cpp)
+add_executable(CinString CinString.cpp)
+add_executable(AutoSample AutoSample.cpp)
+add_executable(NewDeleteSample NewDeleteSample.cpp)
+add_executable(NewDeleteArray NewDeleteArray.cpp)

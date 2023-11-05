@@ -102,6 +102,161 @@ build CoutSample: CXX_EXECUTABLE_LINKER__CoutSample_Debug CMakeFiles/CoutSample.
   TARGET_FILE = CoutSample
   TARGET_PDB = CoutSample.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target CoutString
+
+
+#############################################
+# Order-only phony target for CoutString
+
+build cmake_object_order_depends_target_CoutString: phony || CMakeFiles/CoutString.dir
+
+build CMakeFiles/CoutString.dir/CoutString.cpp.o: CXX_COMPILER__CoutString_unscanned_Debug /Users/changjoonlee/Documents/ThisIsCpp/Chapter01/CoutString.cpp || cmake_object_order_depends_target_CoutString
+  DEP_FILE = CMakeFiles/CoutString.dir/CoutString.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/CoutString.dir
+  OBJECT_FILE_DIR = CMakeFiles/CoutString.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CoutString
+
+
+#############################################
+# Link the executable CoutString
+
+build CoutString: CXX_EXECUTABLE_LINKER__CoutString_Debug CMakeFiles/CoutString.dir/CoutString.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/CoutString.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = CoutString
+  TARGET_PDB = CoutString.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target CinString
+
+
+#############################################
+# Order-only phony target for CinString
+
+build cmake_object_order_depends_target_CinString: phony || CMakeFiles/CinString.dir
+
+build CMakeFiles/CinString.dir/CinString.cpp.o: CXX_COMPILER__CinString_unscanned_Debug /Users/changjoonlee/Documents/ThisIsCpp/Chapter01/CinString.cpp || cmake_object_order_depends_target_CinString
+  DEP_FILE = CMakeFiles/CinString.dir/CinString.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/CinString.dir
+  OBJECT_FILE_DIR = CMakeFiles/CinString.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CinString
+
+
+#############################################
+# Link the executable CinString
+
+build CinString: CXX_EXECUTABLE_LINKER__CinString_Debug CMakeFiles/CinString.dir/CinString.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/CinString.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = CinString
+  TARGET_PDB = CinString.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target AutoSample
+
+
+#############################################
+# Order-only phony target for AutoSample
+
+build cmake_object_order_depends_target_AutoSample: phony || CMakeFiles/AutoSample.dir
+
+build CMakeFiles/AutoSample.dir/AutoSample.cpp.o: CXX_COMPILER__AutoSample_unscanned_Debug /Users/changjoonlee/Documents/ThisIsCpp/Chapter01/AutoSample.cpp || cmake_object_order_depends_target_AutoSample
+  DEP_FILE = CMakeFiles/AutoSample.dir/AutoSample.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/AutoSample.dir
+  OBJECT_FILE_DIR = CMakeFiles/AutoSample.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target AutoSample
+
+
+#############################################
+# Link the executable AutoSample
+
+build AutoSample: CXX_EXECUTABLE_LINKER__AutoSample_Debug CMakeFiles/AutoSample.dir/AutoSample.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/AutoSample.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = AutoSample
+  TARGET_PDB = AutoSample.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target NewDeleteSample
+
+
+#############################################
+# Order-only phony target for NewDeleteSample
+
+build cmake_object_order_depends_target_NewDeleteSample: phony || CMakeFiles/NewDeleteSample.dir
+
+build CMakeFiles/NewDeleteSample.dir/NewDeleteSample.cpp.o: CXX_COMPILER__NewDeleteSample_unscanned_Debug /Users/changjoonlee/Documents/ThisIsCpp/Chapter01/NewDeleteSample.cpp || cmake_object_order_depends_target_NewDeleteSample
+  DEP_FILE = CMakeFiles/NewDeleteSample.dir/NewDeleteSample.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/NewDeleteSample.dir
+  OBJECT_FILE_DIR = CMakeFiles/NewDeleteSample.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target NewDeleteSample
+
+
+#############################################
+# Link the executable NewDeleteSample
+
+build NewDeleteSample: CXX_EXECUTABLE_LINKER__NewDeleteSample_Debug CMakeFiles/NewDeleteSample.dir/NewDeleteSample.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/NewDeleteSample.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = NewDeleteSample
+  TARGET_PDB = NewDeleteSample.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target NewDeleteArray
+
+
+#############################################
+# Order-only phony target for NewDeleteArray
+
+build cmake_object_order_depends_target_NewDeleteArray: phony || CMakeFiles/NewDeleteArray.dir
+
+build CMakeFiles/NewDeleteArray.dir/NewDeleteArray.cpp.o: CXX_COMPILER__NewDeleteArray_unscanned_Debug /Users/changjoonlee/Documents/ThisIsCpp/Chapter01/NewDeleteArray.cpp || cmake_object_order_depends_target_NewDeleteArray
+  DEP_FILE = CMakeFiles/NewDeleteArray.dir/NewDeleteArray.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/NewDeleteArray.dir
+  OBJECT_FILE_DIR = CMakeFiles/NewDeleteArray.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target NewDeleteArray
+
+
+#############################################
+# Link the executable NewDeleteArray
+
+build NewDeleteArray: CXX_EXECUTABLE_LINKER__NewDeleteArray_Debug CMakeFiles/NewDeleteArray.dir/NewDeleteArray.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/NewDeleteArray.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = NewDeleteArray
+  TARGET_PDB = NewDeleteArray.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -136,7 +291,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/changjoonlee/Documents/ThisIsCpp/Chapter01/cmake-build-debug
 
-build all: phony HelloCpp CoutSample
+build all: phony HelloCpp CoutSample CoutString CinString AutoSample NewDeleteSample NewDeleteArray
 
 # =============================================================================
 # Built-in targets

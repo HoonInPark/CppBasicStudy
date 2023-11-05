@@ -1,4 +1,9 @@
 /Users/changjoonlee/Documents/ThisIsCpp/Chapter01/cmake-build-debug/CMakeFiles/HelloCpp.dir
 /Users/changjoonlee/Documents/ThisIsCpp/Chapter01/cmake-build-debug/CMakeFiles/CoutSample.dir
+/Users/changjoonlee/Documents/ThisIsCpp/Chapter01/cmake-build-debug/CMakeFiles/CoutString.dir
+/Users/changjoonlee/Documents/ThisIsCpp/Chapter01/cmake-build-debug/CMakeFiles/CinString.dir
+/Users/changjoonlee/Documents/ThisIsCpp/Chapter01/cmake-build-debug/CMakeFiles/AutoSample.dir
+/Users/changjoonlee/Documents/ThisIsCpp/Chapter01/cmake-build-debug/CMakeFiles/NewDeleteSample.dir
+/Users/changjoonlee/Documents/ThisIsCpp/Chapter01/cmake-build-debug/CMakeFiles/NewDeleteArray.dir
 /Users/changjoonlee/Documents/ThisIsCpp/Chapter01/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/changjoonlee/Documents/ThisIsCpp/Chapter01/cmake-build-debug/CMakeFiles/rebuild_cache.dir

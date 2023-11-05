@@ -16,7 +16,12 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
 					]
 				}
 			],
@@ -32,12 +37,31 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
 					]
 				}
 			],
 			"targets" : 
 			[
+				{
+					"directoryIndex" : 0,
+					"id" : "AutoSample::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-AutoSample-Debug-6fd9be10a40daebf4355.json",
+					"name" : "AutoSample",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CinString::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CinString-Debug-b0806f09ec65b383c93e.json",
+					"name" : "CinString",
+					"projectIndex" : 0
+				},
 				{
 					"directoryIndex" : 0,
 					"id" : "CoutSample::@6890427a1f51a3e7e1df",
@@ -47,9 +71,30 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "CoutString::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CoutString-Debug-d592a1ec66723fe36c34.json",
+					"name" : "CoutString",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "HelloCpp::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-HelloCpp-Debug-20b7943e1acbfbe49d17.json",
 					"name" : "HelloCpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "NewDeleteArray::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-NewDeleteArray-Debug-725294787005d9deb1c7.json",
+					"name" : "NewDeleteArray",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "NewDeleteSample::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-NewDeleteSample-Debug-2f830745d0730f3b0a23.json",
+					"name" : "NewDeleteSample",
 					"projectIndex" : 0
 				}
 			]
