@@ -257,6 +257,161 @@ build NewDeleteArray: CXX_EXECUTABLE_LINKER__NewDeleteArray_Debug CMakeFiles/New
   TARGET_FILE = NewDeleteArray
   TARGET_PDB = NewDeleteArray.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target ReferenceType
+
+
+#############################################
+# Order-only phony target for ReferenceType
+
+build cmake_object_order_depends_target_ReferenceType: phony || CMakeFiles/ReferenceType.dir
+
+build CMakeFiles/ReferenceType.dir/ReferenceType.cpp.o: CXX_COMPILER__ReferenceType_unscanned_Debug /Users/changjoonlee/Documents/ThisIsCpp/Chapter01/ReferenceType.cpp || cmake_object_order_depends_target_ReferenceType
+  DEP_FILE = CMakeFiles/ReferenceType.dir/ReferenceType.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/ReferenceType.dir
+  OBJECT_FILE_DIR = CMakeFiles/ReferenceType.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ReferenceType
+
+
+#############################################
+# Link the executable ReferenceType
+
+build ReferenceType: CXX_EXECUTABLE_LINKER__ReferenceType_Debug CMakeFiles/ReferenceType.dir/ReferenceType.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/ReferenceType.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ReferenceType
+  TARGET_PDB = ReferenceType.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target CallByReference
+
+
+#############################################
+# Order-only phony target for CallByReference
+
+build cmake_object_order_depends_target_CallByReference: phony || CMakeFiles/CallByReference.dir
+
+build CMakeFiles/CallByReference.dir/CallByReference.cpp.o: CXX_COMPILER__CallByReference_unscanned_Debug /Users/changjoonlee/Documents/ThisIsCpp/Chapter01/CallByReference.cpp || cmake_object_order_depends_target_CallByReference
+  DEP_FILE = CMakeFiles/CallByReference.dir/CallByReference.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/CallByReference.dir
+  OBJECT_FILE_DIR = CMakeFiles/CallByReference.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CallByReference
+
+
+#############################################
+# Link the executable CallByReference
+
+build CallByReference: CXX_EXECUTABLE_LINKER__CallByReference_Debug CMakeFiles/CallByReference.dir/CallByReference.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/CallByReference.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = CallByReference
+  TARGET_PDB = CallByReference.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ReferenceSwap
+
+
+#############################################
+# Order-only phony target for ReferenceSwap
+
+build cmake_object_order_depends_target_ReferenceSwap: phony || CMakeFiles/ReferenceSwap.dir
+
+build CMakeFiles/ReferenceSwap.dir/ReferenceSwap.cpp.o: CXX_COMPILER__ReferenceSwap_unscanned_Debug /Users/changjoonlee/Documents/ThisIsCpp/Chapter01/ReferenceSwap.cpp || cmake_object_order_depends_target_ReferenceSwap
+  DEP_FILE = CMakeFiles/ReferenceSwap.dir/ReferenceSwap.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/ReferenceSwap.dir
+  OBJECT_FILE_DIR = CMakeFiles/ReferenceSwap.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ReferenceSwap
+
+
+#############################################
+# Link the executable ReferenceSwap
+
+build ReferenceSwap: CXX_EXECUTABLE_LINKER__ReferenceSwap_Debug CMakeFiles/ReferenceSwap.dir/ReferenceSwap.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/ReferenceSwap.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ReferenceSwap
+  TARGET_PDB = ReferenceSwap.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target RvalueSample
+
+
+#############################################
+# Order-only phony target for RvalueSample
+
+build cmake_object_order_depends_target_RvalueSample: phony || CMakeFiles/RvalueSample.dir
+
+build CMakeFiles/RvalueSample.dir/RvalueSample.cpp.o: CXX_COMPILER__RvalueSample_unscanned_Debug /Users/changjoonlee/Documents/ThisIsCpp/Chapter01/RvalueSample.cpp || cmake_object_order_depends_target_RvalueSample
+  DEP_FILE = CMakeFiles/RvalueSample.dir/RvalueSample.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/RvalueSample.dir
+  OBJECT_FILE_DIR = CMakeFiles/RvalueSample.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target RvalueSample
+
+
+#############################################
+# Link the executable RvalueSample
+
+build RvalueSample: CXX_EXECUTABLE_LINKER__RvalueSample_Debug CMakeFiles/RvalueSample.dir/RvalueSample.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/RvalueSample.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = RvalueSample
+  TARGET_PDB = RvalueSample.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target RangeBasedfor
+
+
+#############################################
+# Order-only phony target for RangeBasedfor
+
+build cmake_object_order_depends_target_RangeBasedfor: phony || CMakeFiles/RangeBasedfor.dir
+
+build CMakeFiles/RangeBasedfor.dir/RangeBasedfor.cpp.o: CXX_COMPILER__RangeBasedfor_unscanned_Debug /Users/changjoonlee/Documents/ThisIsCpp/Chapter01/RangeBasedfor.cpp || cmake_object_order_depends_target_RangeBasedfor
+  DEP_FILE = CMakeFiles/RangeBasedfor.dir/RangeBasedfor.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/RangeBasedfor.dir
+  OBJECT_FILE_DIR = CMakeFiles/RangeBasedfor.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target RangeBasedfor
+
+
+#############################################
+# Link the executable RangeBasedfor
+
+build RangeBasedfor: CXX_EXECUTABLE_LINKER__RangeBasedfor_Debug CMakeFiles/RangeBasedfor.dir/RangeBasedfor.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/RangeBasedfor.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = RangeBasedfor
+  TARGET_PDB = RangeBasedfor.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -291,7 +446,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/changjoonlee/Documents/ThisIsCpp/Chapter01/cmake-build-debug
 
-build all: phony HelloCpp CoutSample CoutString CinString AutoSample NewDeleteSample NewDeleteArray
+build all: phony HelloCpp CoutSample CoutString CinString AutoSample NewDeleteSample NewDeleteArray ReferenceType CallByReference ReferenceSwap RvalueSample RangeBasedfor
 
 # =============================================================================
 # Built-in targets

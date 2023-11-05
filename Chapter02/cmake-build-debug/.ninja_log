@@ -1,0 +1,7 @@
+# ninja log v5
+6	491	1699223152641040177	CMakeFiles/DefaultParam.dir/DefaultParam.cpp.o	e1e114c19763c03a
+491	522	1699223152672572255	DefaultParam	5b56a9e71b483c2
+4	484	1699223370596592266	CMakeFiles/DefaultParam.dir/DefaultParam.cpp.o	e1e114c19763c03a
+4	485	1699223370596593266	CMakeFiles/DefaultParameter2.dir/DefaultParameter2.cpp.o	a31f52fe5f607215
+485	520	1699223370633032835	DefaultParameter2	27fc4f60d12546e4
+484	520	1699223370633564325	DefaultParam	5b56a9e71b483c2

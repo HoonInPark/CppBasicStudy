@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Chapter02",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "DefaultParam::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DefaultParam-Debug-ec700e2adfc777669d3a.json",
+					"name" : "DefaultParam",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DefaultParameter2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DefaultParameter2-Debug-f5ba7898850f91e9cd44.json",
+					"name" : "DefaultParameter2",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/changjoonlee/Documents/ThisIsCpp/Chapter02/cmake-build-debug",
+		"source" : "/Users/changjoonlee/Documents/ThisIsCpp/Chapter02"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}
