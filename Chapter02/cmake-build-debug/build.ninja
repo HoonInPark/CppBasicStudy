@@ -102,6 +102,68 @@ build DefaultParameter2: CXX_EXECUTABLE_LINKER__DefaultParameter2_Debug CMakeFil
   TARGET_FILE = DefaultParameter2
   TARGET_PDB = DefaultParameter2.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target FuncPoly
+
+
+#############################################
+# Order-only phony target for FuncPoly
+
+build cmake_object_order_depends_target_FuncPoly: phony || CMakeFiles/FuncPoly.dir
+
+build CMakeFiles/FuncPoly.dir/FuncPoly.cpp.o: CXX_COMPILER__FuncPoly_unscanned_Debug /Users/changjoonlee/Documents/ThisIsCpp/Chapter02/FuncPoly.cpp || cmake_object_order_depends_target_FuncPoly
+  DEP_FILE = CMakeFiles/FuncPoly.dir/FuncPoly.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/FuncPoly.dir
+  OBJECT_FILE_DIR = CMakeFiles/FuncPoly.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target FuncPoly
+
+
+#############################################
+# Link the executable FuncPoly
+
+build FuncPoly: CXX_EXECUTABLE_LINKER__FuncPoly_Debug CMakeFiles/FuncPoly.dir/FuncPoly.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/FuncPoly.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = FuncPoly
+  TARGET_PDB = FuncPoly.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target FuncAmbiguity
+
+
+#############################################
+# Order-only phony target for FuncAmbiguity
+
+build cmake_object_order_depends_target_FuncAmbiguity: phony || CMakeFiles/FuncAmbiguity.dir
+
+build CMakeFiles/FuncAmbiguity.dir/FuncAmbiguity.cpp.o: CXX_COMPILER__FuncAmbiguity_unscanned_Debug /Users/changjoonlee/Documents/ThisIsCpp/Chapter02/FuncAmbiguity.cpp || cmake_object_order_depends_target_FuncAmbiguity
+  DEP_FILE = CMakeFiles/FuncAmbiguity.dir/FuncAmbiguity.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/FuncAmbiguity.dir
+  OBJECT_FILE_DIR = CMakeFiles/FuncAmbiguity.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target FuncAmbiguity
+
+
+#############################################
+# Link the executable FuncAmbiguity
+
+build FuncAmbiguity: CXX_EXECUTABLE_LINKER__FuncAmbiguity_Debug CMakeFiles/FuncAmbiguity.dir/FuncAmbiguity.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/FuncAmbiguity.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = FuncAmbiguity
+  TARGET_PDB = FuncAmbiguity.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -136,7 +198,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/changjoonlee/Documents/ThisIsCpp/Chapter02/cmake-build-debug
 
-build all: phony DefaultParam DefaultParameter2
+build all: phony DefaultParam DefaultParameter2 FuncPoly FuncAmbiguity
 
 # =============================================================================
 # Built-in targets
