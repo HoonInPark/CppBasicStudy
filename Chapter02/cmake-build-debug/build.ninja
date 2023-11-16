@@ -164,6 +164,99 @@ build FuncAmbiguity: CXX_EXECUTABLE_LINKER__FuncAmbiguity_Debug CMakeFiles/FuncA
   TARGET_FILE = FuncAmbiguity
   TARGET_PDB = FuncAmbiguity.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target FuncTemplate1
+
+
+#############################################
+# Order-only phony target for FuncTemplate1
+
+build cmake_object_order_depends_target_FuncTemplate1: phony || CMakeFiles/FuncTemplate1.dir
+
+build CMakeFiles/FuncTemplate1.dir/FuncTemplate1.cpp.o: CXX_COMPILER__FuncTemplate1_unscanned_Debug /Users/changjoonlee/Documents/ThisIsCpp/Chapter02/cmake-build-debug/FuncTemplate1.cpp || cmake_object_order_depends_target_FuncTemplate1
+  DEP_FILE = CMakeFiles/FuncTemplate1.dir/FuncTemplate1.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/FuncTemplate1.dir
+  OBJECT_FILE_DIR = CMakeFiles/FuncTemplate1.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target FuncTemplate1
+
+
+#############################################
+# Link the executable FuncTemplate1
+
+build FuncTemplate1: CXX_EXECUTABLE_LINKER__FuncTemplate1_Debug CMakeFiles/FuncTemplate1.dir/FuncTemplate1.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/FuncTemplate1.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = FuncTemplate1
+  TARGET_PDB = FuncTemplate1.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target FuncTemplate2
+
+
+#############################################
+# Order-only phony target for FuncTemplate2
+
+build cmake_object_order_depends_target_FuncTemplate2: phony || CMakeFiles/FuncTemplate2.dir
+
+build CMakeFiles/FuncTemplate2.dir/FuncTemplate2.cpp.o: CXX_COMPILER__FuncTemplate2_unscanned_Debug /Users/changjoonlee/Documents/ThisIsCpp/Chapter02/FuncTemplate2.cpp || cmake_object_order_depends_target_FuncTemplate2
+  DEP_FILE = CMakeFiles/FuncTemplate2.dir/FuncTemplate2.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/FuncTemplate2.dir
+  OBJECT_FILE_DIR = CMakeFiles/FuncTemplate2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target FuncTemplate2
+
+
+#############################################
+# Link the executable FuncTemplate2
+
+build FuncTemplate2: CXX_EXECUTABLE_LINKER__FuncTemplate2_Debug CMakeFiles/FuncTemplate2.dir/FuncTemplate2.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/FuncTemplate2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = FuncTemplate2
+  TARGET_PDB = FuncTemplate2.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target InlineSample
+
+
+#############################################
+# Order-only phony target for InlineSample
+
+build cmake_object_order_depends_target_InlineSample: phony || CMakeFiles/InlineSample.dir
+
+build CMakeFiles/InlineSample.dir/InlineSample.cpp.o: CXX_COMPILER__InlineSample_unscanned_Debug /Users/changjoonlee/Documents/ThisIsCpp/Chapter02/InlineSample.cpp || cmake_object_order_depends_target_InlineSample
+  DEP_FILE = CMakeFiles/InlineSample.dir/InlineSample.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/InlineSample.dir
+  OBJECT_FILE_DIR = CMakeFiles/InlineSample.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target InlineSample
+
+
+#############################################
+# Link the executable InlineSample
+
+build InlineSample: CXX_EXECUTABLE_LINKER__InlineSample_Debug CMakeFiles/InlineSample.dir/InlineSample.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/InlineSample.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = InlineSample
+  TARGET_PDB = InlineSample.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -198,7 +291,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/changjoonlee/Documents/ThisIsCpp/Chapter02/cmake-build-debug
 
-build all: phony DefaultParam DefaultParameter2 FuncPoly FuncAmbiguity
+build all: phony DefaultParam DefaultParameter2 FuncPoly FuncAmbiguity FuncTemplate1 FuncTemplate2 InlineSample
 
 # =============================================================================
 # Built-in targets
